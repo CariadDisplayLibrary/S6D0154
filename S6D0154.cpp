@@ -330,7 +330,7 @@ void S6D0154::setRotation(int m) {
 	}
 }
 
-void S6D0154::invertDisplay(boolean i) {
+void S6D0154::invertDisplay(boolean __attribute__((unused)) i) {
 //	command(i ? S6D0154_INVERTON : S6D0154_INVERTOFF);
 }
 
@@ -344,7 +344,7 @@ void S6D0154::windowData(color_t c) {
 }
 
 void S6D0154::windowData(color_t *c, int len) {
-    for (uint32_t i = 0; i < len; i++) {
+    for (int i = 0; i < len; i++) {
         data(c[i] >> 8, true);
         data(c[i] & 0xFF, i < (len-1));
     }
