@@ -330,7 +330,7 @@ void S6D0154::setRotation(int m) {
 	}
 }
 
-void S6D0154::invertDisplay(boolean __attribute__((unused)) i) {
+void S6D0154::invertDisplay(bool __attribute__((unused)) i) {
 //	command(i ? S6D0154_INVERTON : S6D0154_INVERTOFF);
 }
 

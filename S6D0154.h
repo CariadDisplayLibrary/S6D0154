@@ -77,7 +77,7 @@ class S6D0154 : public DisplayCore {
         void drawHorizontalLine(int x, int y, int w, color_t color);
         void fillRectangle(int x, int y, int w, int h, color_t color);
         void setRotation(int r);
-        void invertDisplay(boolean i);
+        void invertDisplay(bool i);
         void displayOn() {} // Not implemented
         void displayOff() {} // Not implemented
         void openWindow(int, int, int, int);
