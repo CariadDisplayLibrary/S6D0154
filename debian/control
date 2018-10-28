@@ -12,7 +12,7 @@ XBSC-Group: DisplayCore
 XBSC-Subgroup: Drivers
 Depends: libdisplaycore-core, libdspi-chipkit
 Provides: S6D0154.h
-Description: S6D0154 library for DisplayCore
+Description: S6D0154
 
 
 
