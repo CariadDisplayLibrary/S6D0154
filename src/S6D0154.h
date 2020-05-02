@@ -1,10 +1,10 @@
 #ifndef _S6D0154_H
 #define _S6D0154_H
 
-#include <DisplayCore.h>
+#include <Cariad.h>
 #include <DSPI.h>
 
-class S6D0154 : public DisplayCore {
+class S6D0154 : public Cariad {
     private:
         p32_ioport *_d0_port;
         p32_ioport *_d1_port;

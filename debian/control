@@ -1,16 +1,17 @@
-Source: libdisplaycore-driver-s6d0154
+Source: libcariad-driver-s6d0154
 Section: main
 Priority: extra
 Maintainer: Matt Jenkins <matt@majenko.co.uk>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
 
-Package: libdisplaycore-driver-s6d0154
+Package: libcariad-driver-s6d0154
+Replaces: libdisplaycore-driver-s6d0154
 Architecture: all
-XBSC-Group: DisplayCore
+XBSC-Group: Cariad
 XBSC-Subgroup: Drivers
 XBSC-Subsubgroup: TFT
-Depends: libdisplaycore-core, libdspi-chipkit
+Depends: libcariad-core, libdspi-chipkit
 Provides: S6D0154.h
 Description: S6D0154
 
